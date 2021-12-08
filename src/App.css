@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homepage {
+  background-image: linear-gradient(
+    to right top,
+    #230e89,
+    #002b90,
+    #003c91,
+    #004a8e,
+    #005687,
+    #005c91,
+    #00639a,
+    #0069a4,
+    #2768be,
+    #5f61d0,
+    #984fd4,
+    #cf21c8
+  );
+  height: 90.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.notfound {
+  height: 80vh;
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-body {
+  /* padding-left: 20px; */
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+}
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+.studentinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(https://media.istockphoto.com/photos/chalkboard-light-bulb-picture-id1132845036?b=1&k=20&m=1132845036&s=170667a&w=0&h=r-XyTtKCvVVW3u8GGTELFX_MzOr4TIFkAXPYM4e7wDo=);
+  background-size: 100% 100%;
+  font-size: large;
+}
+.studentdetails {
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  border: 2px solid;
+  flex-wrap: wrap;
 }
-
-.App-link {
-  color: #61dafb;
+.profileimg {
+  height: 200px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.adduser {
+  padding: 1rem;
 }

@@ -37,12 +37,12 @@ export function Studentprofile() {
               <EditIcon />
             </IconButton>
           </div>
-          <Typography variant="p">
+          <Typography variant="p" color="inherit">
             <b>STUDENT-ID:</b>
             {student.id}
           </Typography>
           <br />
-          <Typography variant="p">
+          <Typography variant="p" color="inherit">
             <b>USER NAME:</b>
             {student.username}
           </Typography>
@@ -52,17 +52,17 @@ export function Studentprofile() {
             {student.password}
           </Typography>
           <br />
-          <Typography variant="p">
+          <Typography variant="p" color="inherit">
             <b>PHONE-NO:</b>
             {student.phoneno}
           </Typography>
           <br />
-          <Typography variant="p">
+          <Typography variant="p" color="inherit">
             <b>EMAIL:</b>
             {student.email}
           </Typography>
           <br />
-          <Typography variant="p">
+          <Typography variant="p" color="inherit">
             <b>ADDRESS:</b>
             {student.address}
           </Typography>

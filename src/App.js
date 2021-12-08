@@ -49,7 +49,7 @@ export default function App() {
             Student Database
           </Typography>
           <Button
-            sx={{ display: { xs: "none", sm: "block" } }}
+            sx={{ display: { xs: "none", sm: "block" }, ml: "auto" }}
             variant="text"
             color="inherit"
             onClick={() => history.push("/")}
@@ -152,7 +152,7 @@ function Home() {
         variant="h1"
         sx={{ fontFamily: "Xanh Mono", fontWeight: "700" }}
       >
-        Seyad School
+        Higher Secondary School
       </Typography>
     </div>
   );

@@ -150,7 +150,11 @@ function Home() {
     <div className="homepage">
       <Typography
         variant="h1"
-        sx={{ fontFamily: "Xanh Mono", fontWeight: "700" }}
+        sx={{
+          fontFamily: "Xanh Mono",
+          fontWeight: "700",
+          fontSize: { xs: "3.5em", sm: "5em" },
+        }}
       >
         Higher Secondary School
       </Typography>
